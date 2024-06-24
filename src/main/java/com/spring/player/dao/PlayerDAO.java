@@ -10,11 +10,9 @@ import java.util.List;
 //@RepositoryRestResource(path = "persons")
 public interface PlayerDAO extends JpaRepository<Player, Integer> {
 
-
     Player findByName(@RequestParam String name);
 
-    //Select * from Player where name = %d;
-    List<Player> findByNameContaining(@RequestParam String name);
+}
 
 
 
@@ -33,4 +31,3 @@ public interface PlayerDAO extends JpaRepository<Player, Integer> {
 
     *
     * */
-}
