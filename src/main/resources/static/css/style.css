@@ -1,0 +1,13 @@
+h1
+{
+    background: red;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.table
+{
+    margin: 100px 0 0 200px;
+    width: 70%;
+}
