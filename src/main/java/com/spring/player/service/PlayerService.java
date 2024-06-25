@@ -39,7 +39,6 @@ public class PlayerService {
     }
 
 
-
     public Player getPlayerByName(String name){
         return playerDao.findByName(name);
     }
